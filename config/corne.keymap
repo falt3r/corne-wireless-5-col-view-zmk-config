@@ -119,7 +119,7 @@
         };
 
         system_layer_combo {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <36 37 38>;
         };
     };
