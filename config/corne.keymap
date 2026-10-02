@@ -25,37 +25,44 @@
             timeout-ms = <50>;
             key-positions = <1 2 3>;
             bindings = <&kp ESCAPE>;
+            layers = <0>;
         };
 
         combo_bksp {
             timeout-ms = <50>;
             key-positions = <10 9 8>;
             bindings = <&kp BACKSPACE>;
+            layers = <0>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <13 14 15>;
+            layers = <0>;
         };
 
         combo_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <25 26 27>;
+            layers = <0>;
         };
 
         combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <21 22 20>;
+            layers = <0>;
         };
 
         combo_rshift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 34 32>;
+            layers = <0>;
         };
 
         exclm {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 13>;
+            layers = <0>;
         };
 
         at {
@@ -122,10 +129,10 @@
         qwerty_layer {
             display-name = "qwerty";
             bindings = <
-&trans  &kp Q  &kp W  &kp E          &kp R         &kp T          &kp Y        &kp U                     &kp I              &kp O    &kp P      &trans
-&trans  &kp A  &kp S  &kp D          &kp F         &kp G          &kp H        &kp J                     &kp K              &kp L    &kp SEMI   &trans
-&trans  &kp Z  &kp X  &kp C          &kp V         &kp B          &kp N        &kp M                     &kp COMMA          &kp DOT  &kp SLASH  &trans
-                      &mt LCTRL TAB  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &mt LEFT_SHIFT BACKSPACE  &mt RIGHT_ALT ESC
+&trans  &kp Q             &kp W  &kp E          &kp R         &kp T          &kp Y        &kp U          &kp I              &kp O    &kp P                 &trans
+&trans  &mt LEFT_SHIFT A  &kp S  &kp D          &kp F         &kp G          &kp H        &kp J          &kp K              &kp L    &mt RIGHT_SHIFT SEMI  &trans
+&trans  &kp Z             &kp X  &kp C          &kp V         &kp B          &kp N        &kp M          &kp COMMA          &kp DOT  &kp SLASH             &trans
+                                 &mt LCTRL TAB  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &kp BACKSPACE  &mt RIGHT_ALT ESC
             >;
         };
 
