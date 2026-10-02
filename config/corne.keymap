@@ -18,7 +18,14 @@
 &lt { tapping-term-ms = <400>; };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        fdEsc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 15>;
+        };
+    };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
