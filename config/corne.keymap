@@ -29,7 +29,11 @@
 
         bkspc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <1 2>;
+            key-positions = <8 9>;
+        };
+        lh-tab{
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
         };
     };
 
